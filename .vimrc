@@ -27,8 +27,10 @@ Plugin 'AutoComplPop'
 Plugin 'ervandew/supertab'
 Plugin 'kien/ctrlp.vim'
 
-Plugin 'blueyed/vim-diminactive' "make the inactive window gray
+Plugin 'blueyed/vim-diminactive' " make the inactive window gray
 Plugin 'yggdroot/indentline' 
+
+Plugin 'wincent/terminus' " Cursor shape change in insert and replace mode
 
 call vundle#end()
 
@@ -82,7 +84,7 @@ set guifont=hack:h12:cDEFAULT
 set guifontwide=나눔고딕코딩:h13:cHANGEUL
 
 "---------------------------------------------------------------------------------------------"
-"= This macro for moving between tabs
+" This macro for moving between tabs
 map <F9> :tabp<Enter>
 map <F10> :tabn<Enter>
 map <C-n> <ESC>:tabnew<cr>
@@ -90,3 +92,7 @@ map <C-tab> <ESC>:tabnext<cr>i
 
 " remove the comment
 map <C-R> ^x
+
+" Use CTRL-S for saving, also in Insert mode
+nmap <C-S> :w<CR>
+imap <C-S> <ESC>:w<CR>
