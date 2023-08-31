@@ -30,8 +30,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'blueyed/vim-diminactive' " make the inactive window gray
 Plugin 'yggdroot/indentline' 
 
-Plugin 'wincent/terminus' " Cursor shape change in insert and replace mode
-
 call vundle#end()
 
 "--------------------------------------------------------------------------------
