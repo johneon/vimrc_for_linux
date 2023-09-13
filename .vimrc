@@ -48,7 +48,7 @@ let g:indentLine_maxLines = 3000
 
 set number                          " line 표시를 해줍니다.
 set ai                              " auto index
-set si                              " smart index
+"set si                              " smart index
 set cindent                         " c style index
 set shiftwidth=4                    " shift를 4칸으로 ( >, >>, <, << 등의 명령어)
 set tabstop=4                       " tab을 4칸으로
