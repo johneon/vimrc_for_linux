@@ -88,9 +88,6 @@ map <F10> :tabn<Enter>
 map <C-n> <ESC>:tabnew<cr>
 map <C-tab> <ESC>:tabnext<cr>i
 
-" remove the comment
-map <C-R> ^x
-
 " Use CTRL-S for saving, also in Insert mode
 nmap <C-S> :w<CR>
 imap <C-S> <ESC>:w<CR>
